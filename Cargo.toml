@@ -1,0 +1,16 @@
+[package]
+name = "skrillax-universal-patch-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+env_logger = "0.11.5"
+log = "0.4.22"
+skrillax-packet = { version = "0.3.0", features = ["derive"] }
+skrillax-protocol = "0.2.0"
+skrillax-serde = { version = "0.2.0", features = ["derive"] }
+skrillax-stream = "0.2.0"
+tokio = { version = "1.41.0", features = ["full"] }
+tokio-util = "0.7.12"
+walkdir = "2.5.0"
