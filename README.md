@@ -7,7 +7,9 @@ on what the desired version is. To properly use this, you most likely
 need a special patcher tool that can connect to the patch server and
 handle patch selection for it.
 
-> [!WARNING] Work in progress
+> [!WARNING]
+> Work In Progress
+> 
 > This is very much a work in progress. There's no error correction,
 > error messages, or other helpful stuff provided by the server. It
 > will probably break, so treat it with care.
